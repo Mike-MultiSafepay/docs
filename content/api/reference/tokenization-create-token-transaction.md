@@ -116,6 +116,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ### Create token transaction
 
 This API call allows you to generate a token transaction by using the recurring id and recurring model in the request.
+
 * All parameters shown are required field(s)
 
 | Parameter                       | Type     | Description                                                                             |

@@ -12,21 +12,23 @@ Kraanspoor 39<br>
 ## Bus from the Central Station in Amsterdam
 
 Busses 391 and 394. Get out at busstop Stenendokweg.
-<br><img src='../map2.jpg'>
+<br><img src='../map2.jpg' width=100%>
 
 ## Bus from metro Noorderpark
 Busses 34 and 35. Get out at busstop Stenendokweg.<br>
 (Same map as above.)
 
 ## Ferry from the Central Station Amsterdam
+For a touristical route you can take ferry 906 to Halte Veer NDSM Werf, Amsterdam.
+The ferry takes 14 minutes and you need 10 mintues to walk to the office.
 
-Ferry 905,
-Halte Veer NDSM Werf, Amsterdam
-<br><img src='../map1.jpg'>
+<br><img src='../ferrytimes.jpg' width=100%>
+
+<br><img src='../map1.jpg' width=100%>
 
 ## Parking
 There is paid parking near the office.
 You find free parking at the west side, for instance in the tt.Melissaweg. This is at a 10 minutes walking distance.
 
 ## Our entrance
-<br><img src='../door.jpg'>
+<br><img src='../door.jpg' width=100%>

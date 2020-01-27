@@ -235,7 +235,6 @@ div.block {
 }
 
 .block-item:hover, .block-faq:hover {
-    transition: all 0.2s ease-out;
     box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
     text-decoration: none;
 }

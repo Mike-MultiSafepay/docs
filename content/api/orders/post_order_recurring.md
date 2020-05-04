@@ -11,7 +11,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {
     "type": "direct",
     "order_id": "My-order-id-3",
-    "gateway": "gatewaycode",
+    "gateway": "{gatewaycode}",
     "recurring_id": "{recurring_id}",
     "currency": "EUR",
     "amount": "1000",
@@ -67,7 +67,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     },
     "payment_details": {
       "recurring_id": "{recurring_id}",
-      "type": "gatewaycode",
+      "type": "{gatewaycode}",
       "account_id": 1,
       "account_holder_name": "Testperson-nl",
       "external_transaction_id": "00000003",

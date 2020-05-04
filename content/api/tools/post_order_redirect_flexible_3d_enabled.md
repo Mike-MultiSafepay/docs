@@ -5,40 +5,39 @@ weight: 1350
 > POST - /orders 
 
 ```shell
-
-
 {
-   "type": "redirect",
-   "gateway": "MASTERCARD",
-   "order_id": "my-order-id-01",
-  "currency": "EUR",
-   "amount": 100,
-   "description": "test product description",
-   "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
+    "type": "redirect",
+    "gateway": "MASTERCARD",
+    "order_id": "my-order-id-01",
+    "currency": "EUR",
+    "amount": 100,
+    "description": "test product description",
+    "payment_options": {
+        "notification_url": "http://www.example.com/client/notification?type=notification",
+        "notification_method": "POST",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
+        "cancel_url": "http://www.example.com/client/notification?type=cancel",
         "close_window": true
-   }, 
-   "customer": {
-       "locale": "nl_NL",
-       "ip_address": "10.1.5.1",
-       "first_name": "Testperson-nl",
-       "last_name": "Approved",
-       "address1": "Kraanspoor",
-       "house_number": "39",
-       "zip_code": "1033SC",
-       "city": "Amsterdam",
-       "country": "NL",
-       "email": "test@example.com",
-       "referrer": "http://example.com",
-       "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
-   "gateway_info": {
-       "flexible_3d": true,
-       "term_url": "http://example.com/?type=term&api_key=<api_key>"
-        
-   }
+    "customer": {
+        "locale": "nl_NL",
+        "ip_address": "10.1.5.1",
+        "first_name": "Testperson-nl",
+        "last_name": "Approved",
+        "address1": "Kraanspoor",
+        "house_number": "39",
+        "zip_code": "1033SC",
+        "city": "Amsterdam",
+        "country": "NL",
+        "email": "test@example.com",
+        "referrer": "http://example.com",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+    },
+    "gateway_info": {
+        "flexible_3d": true,
+        "term_url": "http://example.com/?type=term&api_key=<api_key>"
+
+    }
 }
 ```
 

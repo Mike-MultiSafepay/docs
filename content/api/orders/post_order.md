@@ -14,13 +14,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "currency": "EUR",
     "amount": "1000",
     "description": "Test Order Description",
-    "google_analytics": { 
-      "account": "UA-XXXXXXXXX" 
-      },
+    "google_analytics": {
+        "account": "UA-XXXXXXXXX"
+    },
     "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
+        "notification_url": "http://www.example.com/client/notification?type=notification",
+        "notification_method": "POST",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
+        "cancel_url": "http://www.example.com/client/notification?type=cancel",
         "close_window": ""
     },
     "customer": {
@@ -39,10 +40,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
     "second_chance": {
-        "send_email" : true
+        "send_email": true
     }
 }
-
 ```
 
 
@@ -76,6 +76,7 @@ A _Redirect_ order is the default type.
 | description                 | string    | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.  |
 | payment_options             | object    |                             |
 | notification_url            | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)|
+| notification_method            | string    | Sends push notification  (POST,GET) default: GET. | 
 | google_analytics            | object    | Your Google Analytics Site Id. This will be injected into the payment pages so you can trigger custom events and track payment metrics. This parameter is optional. Read more about Google Analytics on the [FAQ page](/faq/api/google-analytics-tracking/)|
 | account                     | string    | Google Analytics Tracking-ID. You can find this in your Google Analytics Dashboard. 
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.|

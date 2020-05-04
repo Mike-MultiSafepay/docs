@@ -20,8 +20,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
+        "notification_method": "POST",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
+        "cancel_url": "http://www.example.com/client/notification?type=cancel",
         "close_window": true
     }
 }
